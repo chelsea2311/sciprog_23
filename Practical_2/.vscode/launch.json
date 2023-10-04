@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/chels/Downloads/Sci_prog_Praticals/Practical_1",
-      "program": "c:/Users/chels/Downloads/Sci_prog_Praticals/Practical_1/build/Debug/outDebug",
+      "cwd": "c:/Users/chels/Downloads/Sci_prog_Praticals/Practical_2",
+      "program": "c:/Users/chels/Downloads/Sci_prog_Praticals/Practical_2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

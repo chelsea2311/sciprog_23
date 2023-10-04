@@ -1,25 +1,15 @@
-This week practical files are added in this folder. This folder contains two programs
+We will use GCC Compiler to compile and execute the code.
 
-1. Printing
-2. Scanning
+The code is complied and executed using MINGW compiler on a windows machine.
 
-Use GCC Compiler to compile and execute the code.
+- To compile Question 1 :
+gcc printing.c -o printing
 
-The code is complied and executed using VSCode on a mac machine.
+- Use the following command to execute the output file
+./printing
 
-To Run this Program in linux machine:
+- To compile Question 2:
+gcc scanning.c -o scanning
 
-Compile using following command
-
-- For Question 1 :
-gcc printing.c -o printing.c
-
-- Print the Output using this command
-./printing.c
-
-- For Question 2:
-gcc scanning.c -o scanning.c
-
-- Scan the Output using this command
-
-./scanning.c
+- Use the following command to execute the output file
+./scanning
