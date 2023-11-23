@@ -5,12 +5,14 @@ We will use GCC complier to compile and execute the code.
 The code is complied and executed using MINGW compiler on a windows machine
 For initial steps:
 
-gcc matrix_multiplication.c -o matrix_multiplication.c
-./matrix_multiplication
+gcc matmult.c -o matmult
+./matmult
 
- For Final step:
+For Final step:
  gcc -c main.c
-gcc -c matrix_multiplication.c
-gcc -o  matrix_multiplication main.o matrix_multiplication.o
-./matrix_multiplication
+ gcc -c matmult_1.c
+ gcc -o  matrix_multiplication main.o matmult_1.o
+ ./matrix_multiplication
 
+Note:
+ We called matmult.h module inside matmult_1.c file
